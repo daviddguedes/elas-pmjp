@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Elas</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="str_btnPanico">Botão de pânico</string>
+    <string name="str_elas">Elas</string>
+    <string name="str_email">seppm@joaopessoa.pb.gov.br</string>
+    <string name="str_icone">Ícone do App</string>
+    <string name="str_logoMenu">Logo do Elas no menu</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="adicionar_novo">Adicionar Novo</string>
+    <string name="concluir">Concluir</string>
+    <string name="dados_do_a_amigo_a">Dados do(a) Amigo(a)</string>
+    <string name="lista_de_amigos_as">Lista de Amigos(as)</string>
+    <string name="nome">Nome</string>
+    <string name="telefone_com_ddd">Telefone com DDD</string>
+    <string name="botao_de_string_str_btnpanico">botao de @string/str_btnPanico</string>
+</resources>

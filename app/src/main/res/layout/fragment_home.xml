@@ -1,0 +1,45 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.gov.pb.joaopessoa.elaspmjp.HomeFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="60dp"
+        tools:ignore="UselessParent">
+
+        <ImageButton
+            android:id="@+id/btnHelpMe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@color/roxoClaro"
+            android:contentDescription="@string/botao_de_string_str_btnpanico"
+            app:srcCompat="@drawable/botao_panico_200_200"/>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnHelpMe"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="19dp"
+            android:text="Este aplicativo vai lhe ajudar a buscar socorro quando estiver em situação de risco. Caso precise de atendimento psicossocial ou orientação jurídica, procure o Centro de Referência da Mulher Ednalva Bezerra."
+            android:textAlignment="center"/>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_below="@+id/textView4"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="14dp"
+            app:srcCompat="@drawable/logo_pmjp_min"/>
+
+    </RelativeLayout>
+</FrameLayout>

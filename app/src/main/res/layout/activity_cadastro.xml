@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/activity_cadastro"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/roxoClaro"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:theme="@style/ThemeOverlay.AppCompat.Dialog"
+                tools:context="br.gov.pb.joaopessoa.elaspmjp.CadastroActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edtNomeUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/background_light"
+            android:contentDescription="Nome"
+            android:ems="10"
+            android:hint="Digite seu nome"
+            android:inputType="textCapWords"
+            android:maxLength="10"
+            android:padding="16dp"
+            android:textAllCaps="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+
+        <EditText
+            android:id="@+id/edtNascimento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/background_light"
+            android:ems="10"
+            android:hint="Data de nascimento"
+            android:inputType="date"
+            android:maxLength="10"
+            android:padding="16dp"
+            android:textSize="18sp"/>
+
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/radioGenero"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:background="@android:color/background_light"
+                    android:orientation="horizontal"
+                    android:paddingBottom="16dp"
+                    android:paddingStart="10dp"
+                    android:paddingTop="16dp">
+
+            <RadioButton
+                android:id="@+id/homem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Homem"/>
+
+            <RadioButton
+                android:id="@+id/mulher"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mulher"/>
+        </RadioGroup>
+
+        <CheckBox
+            android:id="@+id/chkTermos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/background_light"
+            android:padding="16dp"
+            android:text="Li e aceito os termos de uso."/>
+
+        <Button
+            android:id="@+id/btnCadastroAvancar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:alpha="0.3"
+            android:background="@color/roxoEscuro"
+            android:enabled="false"
+            android:text="Avançar"
+            android:textColor="@android:color/background_light"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:layout_marginTop="5dp"/>
+
+        <Button
+            android:id="@+id/btnShowTermos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/roxoClaro"
+            android:text="Termos de uso"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

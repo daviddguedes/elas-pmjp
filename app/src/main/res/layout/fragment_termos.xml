@@ -1,0 +1,169 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="br.gov.pb.joaopessoa.elaspmjp.TermosFragment">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="TERMOS E CONDIÇÕES GERAIS DE USO DO APLICATIVO ELAS"
+                android:textSize="14sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="Estes termos e condições gerais de uso aplicam-se aos serviços prestados pela Secretaria Extraordinária de Políticas Públicas para as Mulheres do Município de João Pessoa, com sede na Praça Pedro Américo, nº 70, Varadouro, João Pessoa-PB, por meio do aplicativo ELAS."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="1. DO OBJETO"
+                android:textSize="14sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="O aplicativo ELAS caracteriza-se pelo seguinte:"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="Qualquer mulher que se encontre em situação de risco eminente de violência doméstica poderá acionar o aplicativo, que automaticamente enviará SMS aos números de pessoas cadastradas pela usuária para pedir ajuda, além de um número de controle da gestão do aplicativo."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="O aplicativo também conta com números de telefones úteis dos locais da rede de atendimento à mulher em situação de violência doméstica do município de João Pessoa e do Centro de Referência da Mulher Ednalva Bezerra. "/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="Ligações e os SMSs enviados através do aplicativo serão tarifados de acordo com a operadora de cada usuária, multiplicado pelo quantitativo de números cadastrados, acrescido do numero de controle da gestão do aplicativo."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="2. DA ACEITAÇÃO DOS TERMOS E CONDIÇÕES GERAIS DE USO"
+                android:textSize="14sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="Todos aqueles que desejarem ter acesso aos serviços ofertados através do aplicativo ELAS deverão, primeiramente, se informar sobre as regras que compõem o presente instrumento."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="Ao utilizar o aplicativo ELAS, a usuária aceita integralmente as presentes normas. Caso não concorde com quaisquer das regras aqui descritas, a usuária deve, imediatamente, abster-se de utilizar o serviço."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="3. DA NAVEGAÇÃO"
+                android:textSize="14sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="O desenvolvedor do aplicativo ELAS se compromete a utilizar todas as soluções técnicas à sua disposição para permitir o acesso ao serviço 24 (vinte e quatro) horas por dia, 7 (sete) dias por semana. Entretanto, ele poderá, a qualquer momento, interromper, limitar ou suspender o acesso ao aplicativo ou a algumas de suas páginas, a fim de realizar atualizações, modificações de conteúdo ou qualquer outra ação julgada necessária para o seu bom funcionamento."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="4. DO CADASTRO"
+                android:textSize="14sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="Para o devido cadastramento junto ao aplicativo, a usuária deverá fornecer os dados requeridos. Todas as informações devem ser precisas, verdadeiras e atualizadas, os dados deverão ser válidos, pois através deles o aplicativo realizará todos os contatos necessários."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="Após preenchimento dos dados solicitados, passa a ser de sua inteira responsabilidade o acionamento do aplicativo."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="O usuário compromete-se a comunicar ao desenvolvedor quaisquer atividades suspeitas ou inesperadas no funcionamento do aplicativo."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="5. DAS RESPONSABILIDADES"
+                android:textSize="14sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="O desenvolvedor se responsabilizará pelos defeitos ou vícios encontrados no aplicativo desde que lhes tenha dado causa. Defeitos ou vícios técnicos ou operacionais originados no próprio sistema do usuário não será de responsabilidade do desenvolvedor."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="A usuária é responsável pela correta utilização do aplicativo e de seus serviços, prezando pela boa convivência, pelo respeito e pela cordialidade no relacionamento com as(os) demais usuárias(os)."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="6. DAS ALTERACÕES"
+                android:textSize="14sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="O desenvolvedor se reserva o direito de modificar, a qualquer momento e sem qualquer aviso prévio, o aplicativo e os serviços, bem como as presentes normas, especialmente para adaptá-las às evoluções do aplicativo ELAS, seja pela disponibilização de novas funcionalidades, seja ela supressão ou modificação daquelas já existentes."/>
+
+
+        </LinearLayout>
+
+</FrameLayout>

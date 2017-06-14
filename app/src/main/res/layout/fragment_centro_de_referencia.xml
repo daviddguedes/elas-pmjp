@@ -1,0 +1,120 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="br.gov.pb.joaopessoa.elaspmjp.CentroDeReferenciaFragment">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageViewCentro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="24dp"
+                app:srcCompat="@drawable/logo_crmeb"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="O Centro de Referência da Mulher Ednalva Bezerra é um serviço da Prefeitura de João Pessoa ligado à Secretaria de Políticas Públicas para as Mulheres, que disponibiliza atendimento especializado às mulheres em situação de violência doméstica e familiar."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No local elas são acolhidas, recebem orientação jurídica, atendimento psicossocial e são encaminhadas para a Rede de Atendimento."/>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TableLayout
+                        android:id="@+id/tableLayout1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:stretchColumns="0,1">
+
+                        <TableRow
+                            android:id="@+id/tableRow1"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content">
+
+                            <Button
+                                android:id="@+id/btnLigar"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_column="0"
+                                android:background="@color/roxoEscuro"
+                                android:text="Ligar"
+                                android:textColor="@android:color/background_light"/>
+
+                            <Button
+                                android:id="@+id/btnEmail"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_column="1"
+                                android:background="@color/roxoClaro"
+                                android:text="Email"/>
+
+                        </TableRow>
+
+                    </TableLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Telefone:"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="0800 283 3883"
+                        android:textSize="16sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Email:"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:text="crebezerra@hotmail.com"
+                        android:textSize="16sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Horários de atendimento:"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="De segunda a sexta, das 08h00 às 17h00"
+                        android:textSize="16sp"/>
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+    </ScrollView>
+</FrameLayout>

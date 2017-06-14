@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="br.gov.pb.joaopessoa.elaspmjp.AdicionarAmigosActivity"
+    tools:layout_editor_absoluteX="8dp"
+    tools:layout_editor_absoluteY="8dp">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dados_do_a_amigo_a" />
+
+    <EditText
+        android:id="@+id/edtAmigoNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_light"
+        android:ems="10"
+        android:hint="@string/nome"
+        android:inputType="textCapWords"
+        android:maxLength="10"
+        android:padding="16dp"/>
+
+    <EditText
+        android:id="@+id/edtAmigoTelefone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/background_light"
+        android:ems="10"
+        android:hint="@string/telefone_com_ddd"
+        android:inputType="phone"
+        android:maxLength="11"
+        android:padding="16dp"
+        />
+
+    <Button
+        android:id="@+id/btnAmigoAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:alpha="0.3"
+        android:background="@color/roxoEscuro"
+        android:enabled="false"
+        android:text="@string/adicionar_novo"
+        android:textColor="@android:color/background_light" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lista_de_amigos_as" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:divider="#adb8c2"
+        android:dividerHeight="1dp"
+        android:scrollingCache="false"
+        android:smoothScrollbar="true"
+        android:verticalScrollbarPosition="left" />
+
+    <Button
+        android:id="@+id/btnConcluir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@color/roxoEscuro"
+        android:enabled="true"
+        android:text="@string/concluir"
+        android:textColor="@android:color/background_light" />
+
+
+</LinearLayout>

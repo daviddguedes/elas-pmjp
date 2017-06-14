@@ -1,0 +1,82 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="br.gov.pb.joaopessoa.elaspmjp.SobreFragment">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="550dp"
+                app:cardCornerRadius="2dp"
+                app:cardElevation="5dp"
+                app:cardMaxElevation="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+
+                    <ImageView
+                        android:id="@+id/cardImage"
+                        android:layout_width="match_parent"
+                        android:layout_height="170dp"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@drawable/logo_min"/>
+
+                    <TextView
+                        android:id="@+id/cardTitle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="top"
+                        android:padding="10dp"
+                        android:text="Este aplicativo permite que, com apenas um clique, você mulher envie um alerta por meio de SMS para até 5 pessoas de sua confiança, caso se encontre em risco de violência."/>
+
+                    <TextView
+                        android:id="@+id/txtComoUsar"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="Como usar?"
+                        android:textSize="14sp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text="- IMPORTANTE: Para enviar os pedidos de ajuda você precisa possuir créditos, ou bônus, de sua operadora pois as mensagens são enviadas via SMS."/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text="- Primeiro você precisa cadastrar seus amigos ou amigas digitando nome e telefone de até 05(cinco) pessoas de sua confiança. Para cadastrar vá ao menu superior a esquerda e clique em Amigos(as)."/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text="- Quando se sentir em perigo basta clicar no botão acima, onde se lê 'Enviar', que, imediatamente, serão enviados SMS's para as pessoas que você cadastrou."/>
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</FrameLayout>

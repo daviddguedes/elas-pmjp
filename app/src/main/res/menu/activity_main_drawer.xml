@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_perfil"
+            android:icon="@drawable/ic_perfil"
+            android:title="Perfil" />
+        <item
+            android:id="@+id/nav_amigos"
+            android:icon="@drawable/ic_amigos"
+            android:title="Amigos(as)" />
+        <item
+            android:id="@+id/nav_centro"
+            android:icon="@drawable/ic_centro"
+            android:title="Centro de Referência" />
+        <item
+            android:id="@+id/nav_telefones"
+            android:icon="@drawable/ic_telefone"
+            android:title="Telefones Úteis" />
+        <item
+            android:id="@+id/nav_sobre"
+            android:icon="@drawable/ic_sobre"
+            android:title="Sobre Elas" />
+        <item
+            android:id="@+id/nav_termos"
+            android:icon="@drawable/ic_termos"
+            android:title="Termos de Uso" />
+    </group>
+
+</menu>
