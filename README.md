@@ -4,6 +4,7 @@ Código fonte do aplicativo Elas desenvolvido pela Prefeitura de João Pessoa at
 
 ## Instalação
 
+- Tenha o Git instalado na sua máquina
 - Executar git clone https://github.com/daviddguedes/elas-pmjp.git
 - Baixar e instalar a IDE Android Studio juntamente com o SDK e as ferramentas para desenvolvimento Android
 - Abrir o projeto e rodar no Android Studio
